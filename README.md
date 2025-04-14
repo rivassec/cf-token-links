@@ -1,5 +1,10 @@
 # cf-token-links
 
+[![Checkov Security Scan](https://github.com/rivassec/cf-token-links/actions/workflows/checkov.yml/badge.svg)](https://github.com/rivassec/cf-token-links/actions/workflows/checkov.yml)
+[![Trivy Scan](https://github.com/rivassec/cf-token-links/actions/workflows/trivy.yml/badge.svg)](https://github.com/rivassec/cf-token-links/actions/workflows/trivy.yml)
+[![Tests](https://github.com/rivassec/cf-token-links/actions/workflows/test.yaml/badge.svg)](https://github.com/rivassec/cf-token-links/actions/workflows/test.yaml)
+
+
 A lightweight Flask-based microservice for generating expiring, token-based redirect links. Useful for sharing time-limited access to profiles or resources (e.g., GitHub, LinkedIn) in a secure and auditable way.
 
 ## Features
